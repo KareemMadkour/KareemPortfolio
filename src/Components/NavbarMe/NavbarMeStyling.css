@@ -1,0 +1,16 @@
+.me-auto {
+    position: absolute;
+    right: 10%;
+}
+
+.me-auto a {
+    font-size: 1.1rem;
+}
+
+.bg-body-tertiary{
+    background-color: bisque;
+}
+.bg-body-tertiary img {
+    width: 30px;
+    height: 30px;
+}

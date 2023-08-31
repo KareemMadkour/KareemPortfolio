@@ -1,0 +1,44 @@
+.Contact-Container {
+    padding: 20px 0;
+}
+
+.Contact-Container h1 {
+    padding-bottom: 20px;
+}
+
+.Contact-Container a {
+    text-decoration: none;
+    color: blue;
+    padding-left: 5px;
+}
+
+.Contact-Container a:hover {
+    color: rgb(0, 0, 153);
+}
+
+.Contact-Container a:hover {
+    text-decoration: underline;
+}
+
+.Contact-Container .social-media-section {
+    padding-bottom: 30px;
+}
+
+.Contact-Container .form-label {
+    font-weight: 600;
+}
+
+.Contact-Container .submit-btn {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    background-color: rgb(43, 35, 35);
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+.Contact-Container .submit-btn:hover {
+    background-color: rgb(43, 35, 35);
+    text-decoration: none;
+    color: bisque;
+}

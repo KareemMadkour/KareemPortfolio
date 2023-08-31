@@ -1,0 +1,12 @@
+.Projects-Container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Projects-Container h1{
+    padding-bottom: 20px;
+}
+.Projects-Container .card a:hover {
+    color: rgb(70, 33, 155);
+}
