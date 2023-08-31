@@ -21,10 +21,10 @@ export const ProjectsMe = () => {
   }, []);
   return (
     <Container className="Projects-Container" id="projectsMe">
-      <Row>
+      <Row data-aos='fade-up'>
         <h1>My Work</h1>
-        <Col lg="6">
-          <Card data-aos='flip-right'>
+        <Col lg={6}>
+          <Card>
             <Card.Img variant="top" src={Template1} alt="No-img-found" />
             <Card.Body>
               <Card.Title>Template 1</Card.Title>
@@ -37,7 +37,7 @@ export const ProjectsMe = () => {
               </Nav.Link>
             </Card.Body>
           </Card>
-          <Card data-aos='flip-right'>
+          <Card>
             <Card.Img variant="top" src={Calc} alt="No-img-found" />
             <Card.Body>
               <Card.Title>Calculator</Card.Title>
@@ -50,7 +50,7 @@ export const ProjectsMe = () => {
               </Nav.Link>
             </Card.Body>
           </Card>
-          <Card data-aos='flip-right'>
+          <Card>
             <Card.Img variant="top" src={EStore} alt="No-img-found" />
             <Card.Body>
               <Card.Title>E-Store</Card.Title>
@@ -64,8 +64,8 @@ export const ProjectsMe = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col lg="6">
-          <Card data-aos='flip-right'>
+        <Col lg={6}>
+          <Card>
             <Card.Img variant="top" src={Template2} alt="No-img-found" />
             <Card.Body>
               <Card.Title>Template 2</Card.Title>
@@ -78,7 +78,7 @@ export const ProjectsMe = () => {
               </Nav.Link>
             </Card.Body>
           </Card>
-          <Card data-aos='flip-right'>
+          <Card>
             <Card.Img variant="top" src={DigitalClock} alt="No-img-found" />
             <Card.Body>
               <Card.Title>Digital Clock</Card.Title>
@@ -91,7 +91,7 @@ export const ProjectsMe = () => {
               </Nav.Link>
             </Card.Body>
           </Card>
-          <Card data-aos='flip-right'>
+          <Card>
             <Card.Img variant="top" src={ToDo} alt="No-img-found" />
             <Card.Body>
               <Card.Title>To-Do App</Card.Title>

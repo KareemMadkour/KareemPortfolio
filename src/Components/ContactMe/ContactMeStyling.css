@@ -27,6 +27,9 @@
 .Contact-Container .form-label {
     font-weight: 600;
 }
+.Contact-Container .form-control{
+    width: 90%;
+}
 
 .Contact-Container .submit-btn {
     text-decoration: none;

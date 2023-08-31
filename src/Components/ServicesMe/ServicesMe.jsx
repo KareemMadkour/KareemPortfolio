@@ -14,9 +14,9 @@ export const ServicesMe = () => {
   }, []);
   return (
     <Container className="Services-Container" id="servicesMe">
-      <Row>
+      <Row data-aos='fade-up'>
         <h1>My Services</h1>
-        <Col lg="4" data-aos='flip-right'>
+        <Col lg={4}>
           <Card>
             <Card.Img variant="top" src={UIUX} alt="No-img-found" />
             <Card.Body>
@@ -27,7 +27,7 @@ export const ServicesMe = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col lg="4" data-aos='flip-right'>
+        <Col lg={4}>
           <Card>
             <Card.Img variant="top" src={WebDev} alt="No-img-found" />
             <Card.Body>
@@ -38,7 +38,7 @@ export const ServicesMe = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col lg="4" data-aos='flip-right'>
+        <Col lg={4}>
           <Card>
             <Card.Img variant="top" src={MiniPro} alt="No-img-found" />
             <Card.Body>

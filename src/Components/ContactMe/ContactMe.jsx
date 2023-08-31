@@ -20,7 +20,7 @@ export const ContactMe = () => {
     <Container className="Contact-Container" id="contactMe">
       <Row>
         <h1>Contact Me</h1>
-        <Col lg="4" data-aos='fade-up-right'>
+        <Col lg={4} data-aos='fade-up'>
           <h3>
             <FontAwesomeIcon icon={faEnvelope} />
             <a href="mailto:KareemAhmed6997@gmail.com">Email Me</a>
@@ -60,7 +60,7 @@ export const ContactMe = () => {
             </a>
           </section>
         </Col>
-        <Col lg="8" data-aos='fade-up-left'>
+        <Col lg={8} data-aos='fade-up'>
           <Form>
             <Form.Group className="mb-3" controlId="form-full-name">
               <Form.Label>Full Name</Form.Label>
